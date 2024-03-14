@@ -27,8 +27,6 @@ npm install
 
 
 ### web application repository on github
-https://github.com/westminster-bis/WT_Ref-def_CW2_00013479
 
 
 ## web page deployed on Glitch
-https://mulberry-playful-shamrock.glitch.me/
