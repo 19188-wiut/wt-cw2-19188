@@ -14,7 +14,11 @@
 
 .container-content {
     padding: 20px;
-    border: 1px solid #212121;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
 }
 
 .nav {
@@ -98,11 +102,13 @@
     padding: 15px;
     border-bottom: 1px solid #0c0b27;
 }
-.event-text{
+
+.event-text {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
+
 .warning {
     margin-top: 20px;
     width: 100%;
@@ -119,6 +125,7 @@ img {
     margin-top: 20px;
     width: 100%;
 }
+
 .index-txt {
     font-size: 20px;
     margin-top: 15px;

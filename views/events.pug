@@ -2,9 +2,10 @@ extends layout
 
 block content
     div.container-content
-        h1= title
-        a(href="/events/new", class='btn btn-success')  Add New Event
-        
+        div.row
+            h1= title
+            a(href="/events/new" class='btn btn-success')  Add New Event
+
         div.events-list
             if events.length
                 each event in events
