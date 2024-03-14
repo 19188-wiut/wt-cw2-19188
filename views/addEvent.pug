@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    div.container-content
+        if error
+            p.warning Please fill all the inputs
+
+        h1 Add New Event
+        form.form(action="/events" method="POST")
+            label(for="name") Event Name:
+            input.input(type="text" name="name")
+            label(for="date") Date:
+            input.input(type="date" name="date", required=true)
+            label(for="description") Description:
+            textarea.input(name='description' cols="30" rows="10")
+            input.input(type="submit" value="Add Event" class="btn btn-success")

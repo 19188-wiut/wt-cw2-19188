@@ -1,0 +1,14 @@
+[
+  {
+    "id": 2,
+    "name": "WIUT Elections",
+    "date": "2024-03-05",
+    "description": "This is my first event!"
+  },
+  {
+    "id": 3,
+    "name": "CW2 - Web technology",
+    "date": "2024-03-14",
+    "description": "CW is to build CRUD application"
+  }
+]

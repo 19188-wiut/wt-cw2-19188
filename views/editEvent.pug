@@ -1,0 +1,15 @@
+extends layout
+
+block content
+     div.container-content
+        if error
+            p.warning Please fill all the inputs
+        h1 Edit Event
+        form.form(action=`/events/update/${event.id}`, method="POST")
+            label(for="name") Event Name:
+            input.input(type="text" name="name", value=event.name)
+            label(for="date") Date:
+            input.input(type="date" name="date", required=true, value=event.date)
+            label(for="description") Description:
+            textarea.input(name='description' cols="30" rows="10")= event.description
+            input.input(type="submit" value="Update Event" class="btn btn-success")
